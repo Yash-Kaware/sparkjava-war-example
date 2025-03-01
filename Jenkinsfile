@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-                git url: 'https://github.com/SalDevOpsFaculty/sparkjava-war.git', branch: 'main'
+                git url: 'https://github.com/Yash-Kaware/sparkjava-war-example.git', branch: 'main'
             }
         }
         stage('build') {
